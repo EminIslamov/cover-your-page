@@ -2,8 +2,8 @@ import React from 'react'
 
 function HomePage (props) {
   return (
-    <div className="container">
-      <div className="home-page">
+    <div className="home-page">
+      <div className="container">
         <div className="row justify-content-center">
           <div className="col-7 text-center">
             <div className="cover-page">
@@ -17,6 +17,22 @@ function HomePage (props) {
             <button className="learn-more-button ">
               Learn more
             </button>
+          </div>
+        </div>
+        <div className="home-page-footer">
+          <div className="row justify-content-center">
+            <div className="col-auto">
+              <p className="footer-text">
+                Cover template for
+                <a href="https://getbootstrap.com/">
+                  Bootstrap,
+                </a>
+                by
+                <a href="https://twitter.com/mdo">
+                  @mdo.
+                </a>
+              </p>
+            </div>
           </div>
         </div>
       </div>

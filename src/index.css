@@ -1,16 +1,16 @@
 html, body {
-  background-color: #333;
+  background-color: rgb(51, 51, 51);
   font-family: sans-serif;
+
 }
 
 
 
 body {
-  background-color: #333;
   font-size: 1rem;
   font-weight: 400;
-  box-shadow:  0px 0px 80px 0px inset ;
-  box-sizing: border-box;
+  box-shadow: inset 0 0 5rem rgb(0 0 0 / 50%);
+
 
 }
 .App {
@@ -19,8 +19,7 @@ body {
 
 
 .menu {
-  position: relative;
-  top: 20px;
+  padding-top: 15px;
   line-height: 1;
 
 }
@@ -33,13 +32,14 @@ body {
 
 .menu-items {
   text-align: center;
-
 }
 
 
 .menu-item {
   color:rgba(255, 255, 255, 0.5);
   font-weight: 700;
+  margin: 0px 5px;
+
 }
 
 .menu-item:hover {
@@ -74,7 +74,7 @@ body {
 }
 
 .home-page {
-  margin-top: 300px;
+  margin-top: 210px;
 }
 
 .cover-page {
@@ -119,4 +119,16 @@ body {
 
 .footer-text a:hover{
   color: rgb(255, 255, 255);
+}
+
+.home-page-footer{
+  padding-top: 255px;
+}
+
+.features-page {
+  padding-top: 210px;
+}
+
+.features-footer{
+  padding-top: 328px;
 }
