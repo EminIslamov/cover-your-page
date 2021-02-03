@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 import HomePage from './HomePage'
 import Features from './Features'
 import Contact from './Contact'
@@ -7,15 +7,17 @@ import Contact from './Contact'
 function Content (props) {
   return (
     <div>
-      <Route exact path="/">
-        <HomePage />
+      <Switch>
+        <Route exact path="/">
+        <HomePage/>
       </Route>
-      <Route path="/features">
-        <Features/>
-      </Route>
-      <Route path="/contact">
-        <Contact />
-      </Route>
+        <Route path="/features">
+          <Features/>
+        </Route>
+        <Route path="/contact">
+          <Contact/>
+        </Route>
+      </Switch>
     </div>
   )
 }
